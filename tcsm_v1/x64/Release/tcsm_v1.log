@@ -1,0 +1,37 @@
+﻿  dllmain.cpp
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(144,2): warning C4309: 'initializing': truncation of constant value
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(144,2): warning C4369: 'EAttribOwner::EAttribOwner__Invalid':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(155,2): warning C4309: 'initializing': truncation of constant value
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(155,2): warning C4369: 'EAttribStorageType::EAttribStorageType__Invalid':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(167,2): warning C4309: 'initializing': truncation of constant value
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(167,2): warning C4369: 'EHoudiniCurveMethod::EHoudiniCurveMethod__Invalid':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(177,2): warning C4309: 'initializing': truncation of constant value
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(177,2): warning C4369: 'EHoudiniCurveType::EHoudiniCurveType__Invalid':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(330,2): warning C4309: 'initializing': truncation of constant value
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\Александр\source\repos\tcsm_v1\SDK\HoudiniEngineRuntime.h(330,2): warning C4369: 'EHoudiniRampInterpolationType::EHoudiniRampInterpolationType__InValid':  enumerator value '-1' cannot be represented as 'unsigned char', value is '-1'
+  (compiling source file 'dllmain.cpp')
+  
+  Generating code
+  1 of 97 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  tcsm_v1.vcxproj -> C:\Users\Александр\source\repos\tcsm_v1\x64\Release\tcsm_v1.dll

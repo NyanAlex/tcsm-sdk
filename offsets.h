@@ -1,0 +1,1 @@
+constexpr auto OFFSET_GWORLD = 0x6d2f600;

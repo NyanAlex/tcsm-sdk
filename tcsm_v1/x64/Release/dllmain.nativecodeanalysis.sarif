@@ -1,0 +1,1563 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/dllmain.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "77574743d9f89434e4d9bee8a6c5914730900141b1be2560ebfef12ed7d5d2e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/includes.h"
+          },
+          "hashes": {
+            "sha-256": "1a4446c5857d4716b501e0a0bf46d3032c001817355c3c544bc79611bda6186b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk.h"
+          },
+          "hashes": {
+            "sha-256": "b3e6ca16295b094dc28756a445e04b9b90e514570ee190a026e0a9072a25c129"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/basictype.h"
+          },
+          "hashes": {
+            "sha-256": "4fc1d6822aa1d7a2ea377c35e228bd87e194cd41e9290e6c2a027e333708107f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/coreuobject.h"
+          },
+          "hashes": {
+            "sha-256": "c25335b146963ae0500b116145989616a6b3846e7cd691a781e823c017b56db5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/audioextensions.h"
+          },
+          "hashes": {
+            "sha-256": "c739abef28d3ee81b8e1bf77bd0eda4528fd1ead21bc8dfe9902d9b9335a0dbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/audioplatformconfiguration.h"
+          },
+          "hashes": {
+            "sha-256": "ae06e1544160ea7c2113434ac48328178f82465f22202bf8e383920e88cec256"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/chaos.h"
+          },
+          "hashes": {
+            "sha-256": "0c2008a31147df00d58227e2a1b1f275e7296d00eb5d4815cf50d799be1addc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/clothingsystemruntimeinterface.h"
+          },
+          "hashes": {
+            "sha-256": "f18b65f180d71a3fc375ae4dc84d548369b46471330e4e9c65417793a864d6f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/developersettings.h"
+          },
+          "hashes": {
+            "sha-256": "cbff2dc107d4143c4d0b2ba3e10b0a8f0892983b74440892398c40e9ddd2b7e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/inputcore.h"
+          },
+          "hashes": {
+            "sha-256": "627558cc09a86916d5d9977417e48f9f2b88261da244ae928b5a38002e615ecb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/packethandler.h"
+          },
+          "hashes": {
+            "sha-256": "756860c09f7e29c1e82f47e435efd9581d7cdbacb0f097a33a3cf1189861f097"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/physicscore.h"
+          },
+          "hashes": {
+            "sha-256": "9e2d8dc0308dcc63c5bb588a4fb5bf512ef3836515155b3ba38ffa61c01af8cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/propertyaccess.h"
+          },
+          "hashes": {
+            "sha-256": "a5c0ebfad5d469428d5af90c802fe95aeae155c37d4f6aebfd56f9cac73faa5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/propertypath.h"
+          },
+          "hashes": {
+            "sha-256": "90007d57b27e2f9a1a586a894b2089e26de25b443029b3a0c8cc3941fbf78896"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/slatecore.h"
+          },
+          "hashes": {
+            "sha-256": "6a662de9eebb57d0b1a6c4e6743935c46775cbd7d08461a92c53586b97b08eba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/slate.h"
+          },
+          "hashes": {
+            "sha-256": "d4124f02d2b3d0fdf03b4f552309ac0745de387fcddd6170833f225a89e88ae7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/meshdescription.h"
+          },
+          "hashes": {
+            "sha-256": "fa331ec46f73e78c2199b2bbd9549b21a55e685a88a7f0775cf669a2b51b0eed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/staticmeshdescription.h"
+          },
+          "hashes": {
+            "sha-256": "8a74f04a1afa342ca35908bffc336d0b4cd489a8ecad0e040ca4d35a41ee7776"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/merged_audiomixer_engine_umg_moviescene_moviescenetracks.h"
+          },
+          "hashes": {
+            "sha-256": "47e99544b7e543e1836c0f9ef80c2a346f7f86efab20e823a1107a674547b6a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/actorlayerutilities.h"
+          },
+          "hashes": {
+            "sha-256": "33a3c68b5769181e6e292c1d34e01ff3758742d2d38b42077af113d88351d305"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/actorsequence.h"
+          },
+          "hashes": {
+            "sha-256": "adef161f4d2b9af0c46d6d0052be6d9bd24809894647b11d205c6ef347fd6212"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gameplaytags.h"
+          },
+          "hashes": {
+            "sha-256": "9d73858df38f3f882e7e8a7a664d5afc3f21e5be3098400038115c61342eee21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gameplaytasks.h"
+          },
+          "hashes": {
+            "sha-256": "1dcb5b605035fb888b9de2343b49407de8b885f78931e15b55884f8f231fc7a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/navigationsystem.h"
+          },
+          "hashes": {
+            "sha-256": "04f916b4e0132f591db077637fe8b3c3d2c2c5d9f2c7ec96e8854e4874740fe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/aimodule.h"
+          },
+          "hashes": {
+            "sha-256": "7a465fc7c90292d4f8028407b9abe851f8f93887ed74505f7266f478e832f012"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/akaudio.h"
+          },
+          "hashes": {
+            "sha-256": "65ea5c6a7732ff615a797ec213e0fe5d003e1a15a6adb770b576977ff0be9a44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/androidpermission.h"
+          },
+          "hashes": {
+            "sha-256": "cad7bb903e45eea90bea71f12f7a1c831038966cf02e79ee4c268e7345824137"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/animationcore.h"
+          },
+          "hashes": {
+            "sha-256": "c9d3df4efbdb0e18be5c8f15bd2f2718bcf567242de541708ae26608a5d978f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/animationsharing.h"
+          },
+          "hashes": {
+            "sha-256": "5e4a4e82c74131f5769676b033dec3c03ece13dbedcb5091cf598dd00ddf94b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/animgraphruntime.h"
+          },
+          "hashes": {
+            "sha-256": "929228097b8a5d8b010adabcd3697c39ac83368f05e711d4cd1f7475b1ccd27e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/animnotify_akevent.h"
+          },
+          "hashes": {
+            "sha-256": "8171231332bd5342f296554f02378fec178187ca866bf0e4df78af90425dfd44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/apexdestruction.h"
+          },
+          "hashes": {
+            "sha-256": "8419be19534c058e1fabd972cab1d973ff2246004700f58e55711d300de15722"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/appleimageutils.h"
+          },
+          "hashes": {
+            "sha-256": "78b28966ed275e65e22f24723e2373e04bc8bd7bc0a5125f658f2626d53fb0f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/archvischaracter.h"
+          },
+          "hashes": {
+            "sha-256": "5dc255a77ef19dda91c0f802c2c9fd1a17f746e6d2c646b5949fe88c45cf79df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/assetregistry.h"
+          },
+          "hashes": {
+            "sha-256": "48eb84257df1551f0332d06ca75427913374a7893318d3a90f4ae90f63e86908"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/assettags.h"
+          },
+          "hashes": {
+            "sha-256": "e0f3227f2ad3c818b709014b35e4393e028d0341044210877ce555a47f1ff85d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/audioanalyzer.h"
+          },
+          "hashes": {
+            "sha-256": "ed9497cb00b0c9db951ef7dac12e3c0361911085936376c7621eb00b80693236"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/audiocapture.h"
+          },
+          "hashes": {
+            "sha-256": "524d1f35955a09ae352f6ce99fdf8f3c57d3aad10d58bd6f065b7756c8410b87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/audiosynesthesia.h"
+          },
+          "hashes": {
+            "sha-256": "ba9cf437bd75dc30e0e38d39f6ee592bfe6e264558979c4917fd8ef9e7566a02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/mrmesh.h"
+          },
+          "hashes": {
+            "sha-256": "179ecca4d7e012bb97c0e9efd6eab2c6ce05c10c5af616e335f5a3884f381524"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/augmentedreality.h"
+          },
+          "hashes": {
+            "sha-256": "152b3f03c68093755580a9de08fb8c03905a8a02f7c231a29e0ceed3d8bab3d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/automationutils.h"
+          },
+          "hashes": {
+            "sha-256": "67da5c339ca5f64cc5b9e93302366c0e9bf897a45dfd002bb37d4d9be8bb8436"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/avfmediafactory.h"
+          },
+          "hashes": {
+            "sha-256": "2d5de46d1700b616903967aacebab2cb389549ed1295a78e043b9035314ac06c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/onlinesubsystembbq.h"
+          },
+          "hashes": {
+            "sha-256": "a527a808313d09960fce89436553620cf75e72cbfba5dcd9f68a9f1f160be21b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqbackendservices.h"
+          },
+          "hashes": {
+            "sha-256": "73a1dcdf4a82bc68a63093b19d85a1b3de83fb305d8bd1dcaf51d0cf03f3a898"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqinterface.h"
+          },
+          "hashes": {
+            "sha-256": "e00848cd28a6a6e6a8030d1d571fa9bdae0082b01cd8375df3aa81063f82f51f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/enhancedinput.h"
+          },
+          "hashes": {
+            "sha-256": "fcb6bbe0f147e971d00011acc50ade482d546693d7810a2236943232b961ccc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gamemessages.h"
+          },
+          "hashes": {
+            "sha-256": "913df3a93b44e5d1ae71d8aecefc1f7ccfa67fc5b2dff8739eb750cbc0ffb150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/dataregistry.h"
+          },
+          "hashes": {
+            "sha-256": "ad17d7b172b1b32436e24d5ac419f86dedba4f172a929139e5004151d0efe08a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gameplayabilities.h"
+          },
+          "hashes": {
+            "sha-256": "385fc127cc1fdbe7789c946f0dc4b24dca92864b02d00cf76f3f87c615fd6de1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gameplayvariables.h"
+          },
+          "hashes": {
+            "sha-256": "dc7ecd692f9edad57b7d1d5fc9f061c61fed87c6e35ffc1ed30c81e5204a1b70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/niagaracore.h"
+          },
+          "hashes": {
+            "sha-256": "082db4f5ec43cd0dcd6e209d015bb342a9814f682cee289ddb67a17f2d9bc2fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/niagarashader.h"
+          },
+          "hashes": {
+            "sha-256": "7dc4ad4f29039439490f163ab4583cec95153f4a57fe9c954ebd7d4e8e8890a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/niagara.h"
+          },
+          "hashes": {
+            "sha-256": "d41639f9e45602470683656fbf33864a791b032625e7e8b40b93869b7b200a34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqcore.h"
+          },
+          "hashes": {
+            "sha-256": "643c680f53b49a234627579efce9b56b6d40c69b5227525d89c7d499a0e7ca78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqutilities.h"
+          },
+          "hashes": {
+            "sha-256": "ffb972ba283b4e7c03a695e23ced5cde4e4b438e11a283aff03c3d00ad0d68cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/cinematiccamera.h"
+          },
+          "hashes": {
+            "sha-256": "7f5097b9ce2ea98684dcd16787ef56bced6917c7aa44db0725b958e957056f3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/templatesequence.h"
+          },
+          "hashes": {
+            "sha-256": "03086e3a7092f45524f8cbe60ac7d4f6c6fe7cf1b9c41d70650fdc2ffbb3db47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gameplaycameras.h"
+          },
+          "hashes": {
+            "sha-256": "ea51200efb090c3d302fbe1028c489b8c24940c9e2cf1064875259735218a69a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/mediautils.h"
+          },
+          "hashes": {
+            "sha-256": "5dab14ce629c81a0d06b6fd7be6099422559d1026e6efdc5b7ed04fbf8c1490a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/mediaassets.h"
+          },
+          "hashes": {
+            "sha-256": "1816fdcb1a465f6fadd7bdb8899067965ad864536ccbcdf62bdf883acf3fb607"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/levelsequence.h"
+          },
+          "hashes": {
+            "sha-256": "87e3c7fe424ea798b517536a1c6af1c97606fefbe2a8c0d1f337f575255421b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqgamesession.h"
+          },
+          "hashes": {
+            "sha-256": "ee0a19b3b17ef1e1cb123297e1a7c443fc67530858a79b5bbfce96e8d24ea04a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqmetagame.h"
+          },
+          "hashes": {
+            "sha-256": "287415d0d55a4fda9ad499b5e9ff91324cc415d0fd5a32fac902c073d20a4880"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqui.h"
+          },
+          "hashes": {
+            "sha-256": "1b651dcbbf1b16271eeb8e2f101139f88d7e547fbc72ff494fe6372332bc091b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/gauntlet.h"
+          },
+          "hashes": {
+            "sha-256": "529cf6fbd2f3e1d6c4dcdadb19f2dea4639fec812253ef153a4cb111b10f98b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/merged_bbqaddon_alpha_bbqgame_bbqaddon_mercury.h"
+          },
+          "hashes": {
+            "sha-256": "64f7fd7633c9a277ab9e12174b2f12944147cbdc4356390da6b5a46689b3ea74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqaddon_charlie.h"
+          },
+          "hashes": {
+            "sha-256": "a1b1cbb69ae140ab951ed63f9f4d47994313d1a028ebff24641226810de15717"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqaddon_delta.h"
+          },
+          "hashes": {
+            "sha-256": "875a3037bdc460d337d1c759a0a3b0decb2cfadf84a9ad77e318be517b973c18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqaddon_genericperks.h"
+          },
+          "hashes": {
+            "sha-256": "25a30d0eb5e0f93c408c6947996d5ed57ab45415077ed82e3c6caafeb9dd10d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqaddon_rejected.h"
+          },
+          "hashes": {
+            "sha-256": "bfc5bdd348cae849882937fcaecb75def229455c517f85b9b50eb81afcd7ce2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/sumodebugmenu.h"
+          },
+          "hashes": {
+            "sha-256": "9a803421b51022799054eacc52f94275e595ebb286a29288144ba97c6a80dbbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqdebug.h"
+          },
+          "hashes": {
+            "sha-256": "f589542c683c28c5948011e20485951b3f0d60defc068599ae778bd6ca6fef92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqdebuglauncher.h"
+          },
+          "hashes": {
+            "sha-256": "3150fbb7938d6ea71b677275ae9f4ed494db0c399d1a4ce8d7d26dc11963446c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/onlinesubsystem.h"
+          },
+          "hashes": {
+            "sha-256": "aeadebc6b98f1b82567db1d968d2dc488ce555d2a19b05bcf424dac4f3f0598e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/onlinesubsystemutils.h"
+          },
+          "hashes": {
+            "sha-256": "3ad3619d19cf8147d8f167773c614becb6d904e8f011250b44f0dae71ca3e4cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/bbqnetworking.h"
+          },
+          "hashes": {
+            "sha-256": "9cdb78368279b2b46813be517ddeca876d2bf7c2ac86150a88f1ebed4a6d3da2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/buildpatchservices.h"
+          },
+          "hashes": {
+            "sha-256": "1f7ebd99726b3d8f1fa41c00b9f89064a6514c65f785708cbb9a6817690fb559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/cablecomponent.h"
+          },
+          "hashes": {
+            "sha-256": "44d87e95e76ac7052d1ff636564fc8aed380d13783192bbbd0ecd9b42eda68cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/clothingsystemruntimecommon.h"
+          },
+          "hashes": {
+            "sha-256": "7afc9c7b72701eddd7f4ffbf4fb184194e4cd27310b93eb76f4938eb0e0ddd64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/chaoscloth.h"
+          },
+          "hashes": {
+            "sha-256": "367ef3de9d9233602885121cd01876ca5d165dfbdf123ac7648c50cf4cc8e8cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/chaosniagara.h"
+          },
+          "hashes": {
+            "sha-256": "7a36a5ebee6958f37b5897d0b8eb2811086907f2572c63a068e17cff8e81c3ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/chaossolverengine.h"
+          },
+          "hashes": {
+            "sha-256": "195593cca0c97ba4533c1b69f23d9f1ac69c40a3a0572308df571b4ea3c1b7ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/clothingsystemruntimenv.h"
+          },
+          "hashes": {
+            "sha-256": "c39e163e3acec2f31d8eff89a1878bb66f202874e4e18703715f46b0f8bb325f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/rigvm.h"
+          },
+          "hashes": {
+            "sha-256": "b5d207d32032d910b33c52f8f94a8fa0a63049abcb79857e8438505279d40e19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/controlrig.h"
+          },
+          "hashes": {
+            "sha-256": "03f387cdb5992fde1480b0eb7a37df5480816ae90ea58985b2e5d8176ddd0153"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/custommeshcomponent.h"
+          },
+          "hashes": {
+            "sha-256": "c44b0d5d69ee4506b6c9fda44baf8ba95573c6e3a4923ae5818f2377ae4fdeb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/datasmithcontent.h"
+          },
+          "hashes": {
+            "sha-256": "1568e6b35a9ad65d9e2c47d4a4bd7c4e39c231fa9633c2d87ad8652a368d03f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/dlss.h"
+          },
+          "hashes": {
+            "sha-256": "1ba51e38b3f04a823d5072caa3ee0407dff6c08b93647b8582ffdccc252f47ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/dlssblueprint.h"
+          },
+          "hashes": {
+            "sha-256": "7ce8d1d1e41d50eefdb457992822234547b8990a41b5242447cd142b422c3960"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/fieldsystemengine.h"
+          },
+          "hashes": {
+            "sha-256": "bd36ce44ac751ac51c4095162e5085241da26ce9e87f54ceac74b275a9a1fda7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/geometrycollectionengine.h"
+          },
+          "hashes": {
+            "sha-256": "7e23ed66a41512ef25318a53a84c1afe489664db11e37b68bfbd8a8ebb0067e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/editablemesh.h"
+          },
+          "hashes": {
+            "sha-256": "bf8adadf3d3f9811e6cf1e244f499855cd5dcb772cb064caecfcf168fe07cb11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/enginedamagetypes.h"
+          },
+          "hashes": {
+            "sha-256": "44044a871518d0ba60a9df26dbb6979e25a93c1b1f3b79d60f7203bbdd336634"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/enginemessages.h"
+          },
+          "hashes": {
+            "sha-256": "e0b31d62ef6153f9f7a413d8162fd8502c163bd420596cdf08df66136cff3629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/enginesettings.h"
+          },
+          "hashes": {
+            "sha-256": "f62e4032020d17cd7f2f31dd8b38497b33cc5da2273954ba89f98ba5ca0d4880"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/eyetracker.h"
+          },
+          "hashes": {
+            "sha-256": "d9a73ad1d484bd5f5353539660b3d368fd1d92ddd929bbab2d6273b4528feedf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/facialanimation.h"
+          },
+          "hashes": {
+            "sha-256": "9e0ffe7b629dd71cb86cd6ab1e01a5257c42821cf4ba113b777e6c41ab3c5b30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/foliage.h"
+          },
+          "hashes": {
+            "sha-256": "b52d537a7984fe77941626498809efbf1f1adbcc985816fed16b59d0d066f88e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/fsr2temporalupscaling.h"
+          },
+          "hashes": {
+            "sha-256": "af3d41d098637c8d84e2e1344f49a9a51045de295a4f07c7372105c83e696781"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/geometrycache.h"
+          },
+          "hashes": {
+            "sha-256": "d82979a4a4bddc98f49d36231e9c93fc22340f5c925927ef69732f4d6df7e246"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/geometrycachetracks.h"
+          },
+          "hashes": {
+            "sha-256": "e674d32ad13f968f50b9ebaf326f196fd07ad9f3898056761a2166e9f68d294d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/geometrycollectiontracks.h"
+          },
+          "hashes": {
+            "sha-256": "7cd137a86c0c49ffa10a1b0a3b098e9660ba404e9e3a24d3909dfea08e1d6dbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/googlepad.h"
+          },
+          "hashes": {
+            "sha-256": "c83c71cbd4e9075407bda133415af8e5563088eba54ca4a503bbec53be75125d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/hairstrandscore.h"
+          },
+          "hashes": {
+            "sha-256": "709e7ff39de4c1bdeda418e783e743888e36e86fda6ed7160582a7eeab0036cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/headmounteddisplay.h"
+          },
+          "hashes": {
+            "sha-256": "6a24ae0956ac7b1c9068e160a8c88a090722bcec910de90f70ab0ebd788d94dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/heatmaps.h"
+          },
+          "hashes": {
+            "sha-256": "f546f4faaa6e89d8b5e7ef4922ffe2022258e23fec26e5dde292387e5225e60c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/hotfix.h"
+          },
+          "hashes": {
+            "sha-256": "99b1fe400ff5fbc9dc8f62f4a0c321279aa49da25aaf87ddb32f39ef08273719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/houdiniengineruntime.h"
+          },
+          "hashes": {
+            "sha-256": "2c87ffe4a1bd8625e4adea631b3778880b8edc56d99040c3004caccb1c3eb152"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/imagewrapper.h"
+          },
+          "hashes": {
+            "sha-256": "4f3a625960b501970b55b66e82bd6ac962413217ba83c6020d2d43c6b7d1e113"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/imagewritequeue.h"
+          },
+          "hashes": {
+            "sha-256": "db0abc1ac6c79ba806d469800cfeed8b26515a4df6c9fdec5db8a6bacc33c8fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/imgmedia.h"
+          },
+          "hashes": {
+            "sha-256": "995090034aac0ab8f7b3ab39c22abe81a1e0912bbef16c4e4da83f73cd8a2960"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/imgmediaengine.h"
+          },
+          "hashes": {
+            "sha-256": "91ac70db277cffae5014614034ec8bed9a54c7c764675c2a8a759e4180b2ceee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/imgmediafactory.h"
+          },
+          "hashes": {
+            "sha-256": "b6c1ae1a69f4adcf25f787369db6a445943c5b50f40e60cd30520ce130f43faa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/interactivetoolsframework.h"
+          },
+          "hashes": {
+            "sha-256": "eacc2c4d99ffaa0fce17ecb7e472b218021d613ed17114f034b471ac6c19f6ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/jsonutilities.h"
+          },
+          "hashes": {
+            "sha-256": "5954e63f85c74364dc5c150c642791dffb5d0d0b8499f60f0168d49229409fb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/landmass.h"
+          },
+          "hashes": {
+            "sha-256": "96f68ef7c480083f841be1e0f41b98120ffa1e309b1f9c477cad45715bf4aaea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/landscape.h"
+          },
+          "hashes": {
+            "sha-256": "0ac9a1e60f9efbf4f4823539c60cac25123b6daf11c87a83af2493b8e5040630"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/renderer.h"
+          },
+          "hashes": {
+            "sha-256": "7df8fc9db5a57a032b9937dacf83f210735fee5927cc2d926d2751e1d6ebc2ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/lightpropagationvolumeruntime.h"
+          },
+          "hashes": {
+            "sha-256": "39ef403eab7036739b2f44e428b4bf5a1cff63a21cde5f34442720440c5ce041"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/livelinkinterface.h"
+          },
+          "hashes": {
+            "sha-256": "5dd8c9d2b3a5de8412d31aa5b35178baf5133149caabaad73518f2c14c452845"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/timemanagement.h"
+          },
+          "hashes": {
+            "sha-256": "5b206d7df2f7d5e842b05ca8bd3e4641854d05f51f699366c3ea86a0c1b726d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/livelink.h"
+          },
+          "hashes": {
+            "sha-256": "dd35bd57db21b40ade88f82742d4783e7cbfde517049525ec414daf706984414"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/livelinkcomponents.h"
+          },
+          "hashes": {
+            "sha-256": "3366b4423531b23e6e9946176600e6c91f86d435138a0aa78bb30cbde9982084"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/livelinkmessagebusframework.h"
+          },
+          "hashes": {
+            "sha-256": "9a646ddfd3ba224a089088f713478ac8871310629f09429603908faa1e5438bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/livelinkmoviescene.h"
+          },
+          "hashes": {
+            "sha-256": "2dbcc626bd89abf44b762381b2e65b81c701ca36cbb9596bb5a9751df964c4bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/lobby.h"
+          },
+          "hashes": {
+            "sha-256": "f5187587197cbd80aaa96676f6ab718be8d03c6d03e3de5f0d5165294c08ad9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/locationservicesbplibrary.h"
+          },
+          "hashes": {
+            "sha-256": "44b2e067a1fb3efce11e83d87229338507fcb0061e2404b05bd014ae6e12d997"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/lowspecassets.h"
+          },
+          "hashes": {
+            "sha-256": "bd62bc6d95370f6915df2820608ac13ad97f5c194865cd2b5528f06823318c29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/luminruntimesettings.h"
+          },
+          "hashes": {
+            "sha-256": "9fe2e2f69a3ca46a073dff69549187da86f984c6650d534083760155727b160b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleap.h"
+          },
+          "hashes": {
+            "sha-256": "a3558a9de98a992f974aa3eb5a15f17ef06593e003b54e58379f37c923b84e82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapimagetracker.h"
+          },
+          "hashes": {
+            "sha-256": "14fd6657e19a849bda99161d8adc641abd8860aa34da6271ed5691b4b9604621"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapplanes.h"
+          },
+          "hashes": {
+            "sha-256": "7b1a389d3bed1bb88c12a42bd1fb148be024fe790231b755d493b54a10ab7026"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapar.h"
+          },
+          "hashes": {
+            "sha-256": "cc2c5644ad18ee397e165c8e1cb0a3d5880782199412d7615261375190bf2ff7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleaparpin.h"
+          },
+          "hashes": {
+            "sha-256": "8f4cd3ce99272365fcbb168c1638c1d38e19f9e2ab4a25c0dd2f9972505134d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleaparpininfoactor.h"
+          },
+          "hashes": {
+            "sha-256": "efe076095c673fb267cb5535506d81bc30d8bc859eae08c943d53e9f90083628"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapaudio.h"
+          },
+          "hashes": {
+            "sha-256": "798ce9a977cfe0164de992dd0523244e97b9e577943f0bc9891468e4f7fa9b40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapcontroller.h"
+          },
+          "hashes": {
+            "sha-256": "2757e49890fd5c4231b94c31dd8f4337c9a8a409eef692de12e18b081d026072"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapeyetracker.h"
+          },
+          "hashes": {
+            "sha-256": "90787b92d92bdfb7f98304b91dc0e259175ddac6f88b925a2c7715e9936ee5e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleaphandmeshing.h"
+          },
+          "hashes": {
+            "sha-256": "ddb82d4d9cc286b776e5d7a0ac9a29ef4d30b9bf680fa62f894dd286c2823d0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleaphandtracking.h"
+          },
+          "hashes": {
+            "sha-256": "872dfcbc315f3275ac04adff9c9c6d6c20626a425eb9ffb516f6bf79ed0c46a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapidentity.h"
+          },
+          "hashes": {
+            "sha-256": "b6bd2bd5e721c82c8c8dbc080340b64ad15e6c49242c36d5bacee0ab75d75c72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleaplightestimation.h"
+          },
+          "hashes": {
+            "sha-256": "42a100051eaf226ef505ca6ff10d9ad531466c62a4910b0e050ff3146ea71a03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapprivileges.h"
+          },
+          "hashes": {
+            "sha-256": "09f34687c32e8af06691610f62b2384d18555d91f0929a2ea3216a84abf73bcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapsecurestorage.h"
+          },
+          "hashes": {
+            "sha-256": "b744d2e2d90e7ed8a05d52c7244c821d2bfe6325caa9271201d6530b24b0b9c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/magicleapsharedworld.h"
+          },
+          "hashes": {
+            "sha-256": "d48a8ef92373c7140339a192db6857b066ab1cd4a55a38b0b0316c1ae22cd3f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/materialshaderqualitysettings.h"
+          },
+          "hashes": {
+            "sha-256": "126c28b4d005d5d31b8c0b5dd1f59d21f0d325f67b4d074081a54136e7a97194"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/mediacompositing.h"
+          },
+          "hashes": {
+            "sha-256": "7e17ee311ab6ec75748b73f5cb9828c2c13c210581cf41371eaf909f264b82fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/modelingcomponents.h"
+          },
+          "hashes": {
+            "sha-256": "d6e804e0734dea970cac35da455a8600a41162abc724ebeaa04e6825df9127f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/modelingoperators.h"
+          },
+          "hashes": {
+            "sha-256": "2cdd661723b5698842143a16ad0c4bba71bc8cdae16e3b6348f9fb33094b7646"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/meshmodelingtools.h"
+          },
+          "hashes": {
+            "sha-256": "8d19f7d8400ac8854c01e594bdcad01e621649e541e189ac21362a910a254aad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/mobilepatchingutils.h"
+          },
+          "hashes": {
+            "sha-256": "d365322561f157b129e24c218c4dfea998ac497db7d4759704b04f2899b33254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/motosynth.h"
+          },
+          "hashes": {
+            "sha-256": "7411504f2a6e8b8274f6035dd89e9547bc9ba1354d844bda213fd69905813718"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/movieplayer.h"
+          },
+          "hashes": {
+            "sha-256": "dae714e44132702a25a777d0149f066052135ff7841c660fed13f34f46e30e31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/opencolorio.h"
+          },
+          "hashes": {
+            "sha-256": "a93038554a6ba4b19ff22265b61ef7357773074e8abed792ca33211f4598a33a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/movierenderpipelinecore.h"
+          },
+          "hashes": {
+            "sha-256": "7e925eceda0369e3cc455447eaefd22eb8a57981c043d9678d89ffedda257a6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/movierenderpipelinerenderpasses.h"
+          },
+          "hashes": {
+            "sha-256": "3c635d06021785aaad97aca63b12975e0941a2eb761259f0ddf2033902171824"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/movierenderpipelinesettings.h"
+          },
+          "hashes": {
+            "sha-256": "fa125f6ea10a41ba3f09e7ba0bdd4fb3c84f5812803cdc82fac8e21f82503280"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/moviescenecapture.h"
+          },
+          "hashes": {
+            "sha-256": "ba1924d873f500061faa9df49759325f6dcef38865842aeda150d589e9c82918"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/multiplaygameserversdk.h"
+          },
+          "hashes": {
+            "sha-256": "cdb7ce560b308bfc725a5bedd2b7365f1b42e2d7417479adc52e2cbdc13c2d6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/museummode.h"
+          },
+          "hashes": {
+            "sha-256": "7dfb2be7a5253084640c898a17bbfb8b4047afb9f0fa087a077e4d58cc77b38f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/netcore.h"
+          },
+          "hashes": {
+            "sha-256": "370ac10cbadf247710b8896d9790260482db92f7af7dd1d5e9471f8a804a2d77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/niagaraanimnotifies.h"
+          },
+          "hashes": {
+            "sha-256": "e2fb6b6711274f45313fe72df36e887415e6397365eeebeb4ec7a91bf13a666b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/onlinesubsystemsteam.h"
+          },
+          "hashes": {
+            "sha-256": "28125604368967114b968f0bc0f0cb0db6c5789928d4f6a462bf51eeef7c46fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/oodlenetworkhandlercomponent.h"
+          },
+          "hashes": {
+            "sha-256": "295ebb39472c4ae3c72a4e0b0543bd685deed607ac319547f6fcc3c527150e9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/openxrhandtracking.h"
+          },
+          "hashes": {
+            "sha-256": "96a9b40b1c770430a353188a8cd40440312586c7943478f48ca96be92b7e9321"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/overlay.h"
+          },
+          "hashes": {
+            "sha-256": "d2ea244a5dce55e1a050758dc7523deccbe12ba4c4ad8d41f5900761f9705751"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/party.h"
+          },
+          "hashes": {
+            "sha-256": "7fdda8cc6fb28f71728e5cf1fca84fb50b4f5ac669702a8f231186d37a23c470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/physxvehicles.h"
+          },
+          "hashes": {
+            "sha-256": "df3346141c26d45f7da04c762737ce0c0c1048ef774579a960ce5aa9a0066739"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/playfabcommon.h"
+          },
+          "hashes": {
+            "sha-256": "7e7dd77b2ce14aa6ed8b1b1ff60de4dee634935696bface219af73742650946e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/playfab.h"
+          },
+          "hashes": {
+            "sha-256": "0199019507c32e433d33794064d6b081afa708d26aabcc82fd60019aa28f2978"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/playfabgsdk.h"
+          },
+          "hashes": {
+            "sha-256": "b40f8e5605b2bdba0dd65310cc966962c7cc34425bb0b62950fda0d5544a14f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/proceduralmeshcomponent.h"
+          },
+          "hashes": {
+            "sha-256": "16d8cc9446f9f2efc986d0e625c9ac6566bf8a119a8636fbce6623e83f0f48f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/qos.h"
+          },
+          "hashes": {
+            "sha-256": "23bfeef472c4958843fb582dc15938606a9c2577a739edc163e480e3567d7c6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/rejoin.h"
+          },
+          "hashes": {
+            "sha-256": "e89a31ca385e046f6a46d6104b2577bb82104df12de0c42215660f73b0c9c805"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/replicationgraph.h"
+          },
+          "hashes": {
+            "sha-256": "045ed29c7bc2cd4e3dfb39ee610c1c49a85b99618923fba03fc0713b52327f94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/sequencerscripting.h"
+          },
+          "hashes": {
+            "sha-256": "6146a6b4255dd92f4e703b5c53f40ebcaaf62877b52fcc6d23c3b9bf61df9af1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/serialization.h"
+          },
+          "hashes": {
+            "sha-256": "9287014e31bc425c0a32e798f53b0e8a988150767a8854ccbb2e88e2e00bf969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/sessionmessages.h"
+          },
+          "hashes": {
+            "sha-256": "f7b03d2134c0ee4b077d5b0ee67ec6d5a763fd27f9dfae5a347c4be4eab7acf6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/significancemanager.h"
+          },
+          "hashes": {
+            "sha-256": "beb45c2cb759d98b3743488e11f25871b51416c241158d6adb7e04ea70b67f1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/soundfields.h"
+          },
+          "hashes": {
+            "sha-256": "fff1421b19d7f665994d433aa860f141c9394ac09a4052b21c9768d4336da01d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/sumowwisehelpers.h"
+          },
+          "hashes": {
+            "sha-256": "1d3ade94775224da45fdcab7f55754cda05062a68258e5776332dcf37c972dfb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/synthesis.h"
+          },
+          "hashes": {
+            "sha-256": "4bf62bd90defbcf5e27a78be423a631d5523168cdccd6c029cf872c7b909b33e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/takemoviescene.h"
+          },
+          "hashes": {
+            "sha-256": "912715bfe93ef6be29ae747b54aa91a47402c8c909c7127d12aca16c58d752f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/tcpmessaging.h"
+          },
+          "hashes": {
+            "sha-256": "1bfb36894df900f7ecda33b0283e56eecee35214a7d4aec1229ee5ee875d7969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/udpmessaging.h"
+          },
+          "hashes": {
+            "sha-256": "c18a05e95829166cbbb25b52c4f738f938b82b8ff42e2f5d479ac4a7d0e69d69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/uobjectplugin.h"
+          },
+          "hashes": {
+            "sha-256": "3fe336d8719cd07851f9113c5d8a57a628abb100b61e52d8903634585289cf9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/variantmanagercontent.h"
+          },
+          "hashes": {
+            "sha-256": "1a3d859dc295c26c8c41293166e7c9294ab92f748b5b8d968fe2ef86bd3a45f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/vectorvm.h"
+          },
+          "hashes": {
+            "sha-256": "71f79532846411633c34c98515a769ecbb0a458cc1244aea9288f87fe98f342a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/webbrowser.h"
+          },
+          "hashes": {
+            "sha-256": "404ab511d2e4a9f96742224d9919ec3581a9b605154647614cc4bd937a0c40da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/александр/source/repos/tcsm_v1/sdk/wmfmediafactory.h"
+          },
+          "hashes": {
+            "sha-256": "df73599e62d5af6ed58c82ee1417d1465193b7376f0d27178f0de0a593e79680"
+          }
+        }
+      ]
+    }
+  ]
+}
